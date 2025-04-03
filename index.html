@@ -9,33 +9,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+
     <style>
 
 
         *{
             font-family: 'Montserrat';
         }
-
-       
         
         .img-holder{
-            box-shadow: 0 0 10px 0 rgb(255, 255, 255, 0.3);
-            border-radius: 10px;
+            /* border-radius: 10px; */
             overflow: hidden;
             height: 300px;
-            /* border: 1px white; */
+            border: 1px white;
         }
 
         img{
 
             border-radius: 8px;
-            /* border: 2px solid #3e3e3e; */
+            border: 2px solid #3e3e3e;
             height: 100%;
             width: 100%;
             object-fit: cover;
             object-position: center;
 
         }
+
+        
 
         .img-full img{
 
@@ -48,26 +48,20 @@
 
         }
 
-        .img-fit img{
-            border-radius: 8px; 
-            border: 2px solid #3e3e3e;
-            height: 100%;
-            width: 100%;
-            object-fit: contain;
-            object-position: center;
-        }
-
         h1{
-            text-align: left;
             margin-top: 10px;
             font-size: 1rem;
         }
 
         p{
-            color: rgb(124, 124, 124);
-            text-align: left;
             margin-top: 0px;
             font-size: 0.8rem;
+        }
+
+        br{
+            display: block;
+            content: "";
+            margin: 10px 0;
         }
 
     </style>
@@ -78,268 +72,132 @@
 
     <div class="m-auto lg:w-2/3 w-full text-white flex lg:flex-row flex-col justify-between items-center mt-10">
         
-    <div class="text-xl lg:text-2xl text-white font-bold"> astrogeekdk // Devesh Kumar </div>
-
-    <div class="text-orange-300 flex flex-row gap-2 text-sm justify-center mt-3">
-  
-        <!-- <a href="#">Code</a> --> //
-        <a href="./index.html">Astrophotography</a> //
-        <a href="./about.html">About</a> //
-
-    </div>
-
-    </div>
-
-    <div class="text-white text-center mt-10 text-xl">
-        Astrophotography
-    </div>
-
-    <div class="text-white w-2/3 m-auto mt-10 font-bold">
-        Deep Sky
-    </div>
-
-    <div class="mt-5 m-auto w-2/3 text-white grid lg:grid-cols-3 grid-cols-1 gap-4 mb-10">
-
-
-        <div class="">
-            <div class="img-holder"><img src="M31.jpg" alt=""></div>
-            <h1>M31 Andromeda Galaxy</h1>
-            <p>Sony A6600 @50mm | 20 min | Bortle 2</p>
-        </div>
-        
-
-        <div class="">
-            <div class="img-holder"><img src="Orion.jpg" alt=""></div>
-            <h1>M42 Orion Nebula</h1>
-            <p>130mm reflector | 1 hour | Bortle 8</p>
-        </div>
-        
-
-        <div class="">
-            <div class="img-holder"><img src="M101.jpg" alt=""></div>
-            <h1>M101 Pinwheel Galaxy</h1>
-            <p>130mm reflector | ~20 min | Bortle 4</p>
-        </div>
-        
-
-        <div class="">
-            <div class="img-holder"><img src="M81.jpg" alt=""></div>
-            <h1>M81 Bode's Galaxy</h1>
-            <p>130mm reflector | ~20 min | Bortle 4</p>
-        </div>
-
-        <div class="">
-            <div class="img-holder"><img src="M51.jpg" alt=""></div>
-            <h1>M51 Whirlpool Galaxy</h1>
-            <p>130mm reflector | ~20 min | Bortle 4</p>
-        </div>
-        
-
-        <div class="">
-            <div class="img-holder"><img src="M27.jpg" alt=""></div>
-            <h1>M27 Dumbbell Nebula</h1>
-            <p>130mm reflector | ~1 hour | Bortle 8</p>
-        </div>
-
-
-        <div class="">
-            <div class="img-holder"><img src="Ring Nebula.jpg" alt=""></div>
-            <h1>M57 Ring Nebula</h1>
-            <p>130mm reflector | ~20 min | Bortle 8</p>
-        </div>
-        
-
-  
-
-        <div class="">
-            <div class="img-holder"><img src="Cygnus Wall.png" alt=""></div>
-            <h1>The Cygnus Wall</h1>
-            <p>130mm reflector | Bortle 8</p>
-        </div>
-
-
-        <div class="">
-            <div class="img-holder"><img src="Horsehead Nebula.jpg" alt=""></div>
-            <h1>The Horsehead Nebula</h1>
-            <p>130mm reflector | Bortle 8</p>
-        </div>
-
-
-        <div class="">
-            <div class="img-holder"><img src="M33.jpg" alt=""></div>
-            <h1>M33 Triangulum Galaxy</h1>
-            <p>130mm reflector | Bortle 8</p>
-        </div>
-        
-
-        
-
-        
-
-        </div>
-
-
-
-        <div class="border-t-1 border-orange-200 pt-10 text-white w-2/3 m-auto mt-10 font-bold">
-            Planetary
-        </div>
-
-        <div class="mt-5 m-auto w-2/3 text-white grid lg:grid-cols-3 grid-cols-1 gap-4 mb-10">
-
-
-        <div class="">
-            <div class="img-holder"><img src="Venus.jpg" alt=""></div>
-            <h1>Venus</h1>
-            <p>130mm reflector | Live View Capture</p>
-        </div>
-        
-
-        <div class="">
-            <div class="img-holder"><img src="Mars.png" alt=""></div>
-            <h1>Mars</h1>
-            <p>130mm reflector | Live View Capture</p>
-        </div>
-        
-
-            
-
-        <div class="">
-            <div class="img-holder"><img src="Jupiter.jpg" alt=""></div>
-            <h1>Jupiter</h1>
-            <p>130mm reflector | Live View Capture</p>
-        </div>
-
-        <div class="">
-            <div class="img-holder"><img src="Jupiter with Moons.png" alt=""></div>
-            <h1>Jupiter with Moons</h1>
-        </div>
-
-
-        <div class="">
-            <div class="img-holder"><img src="Jupiter.gif" alt=""></div>
-            <h1>Jupiter Rotation Timelapse</h1>
-            <p>130mm reflector | Captured at ~10 min intervals</p>
-        </div>
-        
-        <div class="">
-            <div class="img-holder"><img src="Saturn.jpg" alt=""></div>
-            <h1>Saturn</h1>
-        </div>
-        
-
-        <div class="">
-            <div class="img-holder img-fit"><img src="MoonPlanets.jpg" alt=""></div>
-            <h1>MoonPlanets</h1>
-            <p>Collage Composition</p>
-        </div>
-        
-
-        <div class="">
-            <div class="img-holder"><img src="Moon1.jpg" alt=""></div>
-            <h1>Moon Closeup 1</h1>
-        </div>
-        
-
-        <div class="">
-            <div class="img-holder"><img src="Moon2.jpg" alt=""></div>
-            <h1>Moon Closeup 2</h1>
-        </div>
-        
-
-        <div class="">
-            <div class="img-holder"><img src="Moon3.jpg" alt=""></div>
-            <h1>Moon Closeup 3</h1>
-        </div>
-
-
-
-        <div class="">
-            <div class="img-holder img-fit"><img src="moonhdr.jpg" alt=""></div>
-            <h1>Crescent Moon</h1>
-        </div>
-        
-        </div>
-
+        <div class="text-xl lg:text-2xl text-white font-bold"> astrogeekdk </div>
+    
+        <div class="text-orange-300 flex flex-row gap-2 text-sm justify-center mt-3">
       
-
-        <div class="border-t-1 border-orange-200 pt-10 text-white w-2/3 m-auto mt-10 font-bold">
-            Milky Way and Landscape
+            <a href="./index.html">About</a> //
+            <!-- <a href="./code.html">Code</a> // -->
+            <a href="./astro.html">Astrophotography</a> //
+    
         </div>
+    
+    </div>
 
-        <div class="mt-5 m-auto w-2/3 text-white grid lg:grid-cols-3 grid-cols-1 gap-4 mb-10">
 
-        
-        <div class="">
-            <div class="img-holder"><img src="MilkyWay2.jpg" alt=""></div>
-            <h1>~20 min at Bortle 4</h1>
-        </div>
-        
+    <div class="text-white w-full lg:w-2/5 m-auto text-left my-10 py-5">
 
-       
-        
+        <div class="text-4xl font-extrabold">Devesh Kumar</div>
 
-        <div class="">
-            <div class="img-holder"><img src="Milkyway3.jpg" alt=""></div>
-            <h1>~10 min at Bortle 4</h1>
-        </div>
-        
 
-        <div class="">
-            <div class="img-holder"><img src="MilkyWay4.jpg" alt=""></div>
-            <h1>~10 min at Bortle 4</h1>
-        </div>
-        
+
+
+        <div class="font-normal mt-5 text-gray-400">
+
+
+
+            I’m a Computer Science undergraduate at Indian Institute of Technology, Mandi, with a deep passion for computer science alongside astrophysics, unraveling the mysteries of the universe through programming, simulations, and observation.
+            
+            <br><br>My interests span deep learning, software development, simulations and scientific modeling, computational astrophysics, astrodynamics, and even space tech and rockets. 
+            
+            <br>
+            
+            I’m driven by the curiosity to understand how things work. My projects have earned recognition at NASA Space Apps, InterIIT Tech Meet, and other competitions, and now I am eager to push the limits of science and technology.
+    
+                <br><br>
 
     
-        <div class="">
-            <div class="img-holder"><img src="Cygnus.jpeg" alt=""></div>
-            <h1>Cygnus Region of Milky Way</h1>
+                <!-- //
+                <a href="https://github.com/astrogeekdk" class="text-orange-300">Github</a> //
+                <a href="https://x.com/astrogeekdk" class="text-orange-300">X</a> // -->
+    
+    
+           
         </div>
+
+
+        <div class="text-2xl font-semibold mt-10">Skills</div>
+
+        <div class="mt-2 text-gray-400">
+            <ul class="list-disc list-outside text-sm">
+
+                <li>Programming: Python, C/C++, Java, Javascript, Dart, Scala, and Chisel HDL</li>
+                <li>Libraries & Tools: Astropy, Poliastro, Skyfield, SunPy, PyTorch, PyGame, NumPy, SciPy, Matplotlib, Pandas, Flask,
+                    OpenMPI, RISC-V, Three.js, Git</li>
+                <li>Frameworks: Flutter, React, Next.js, NodeJS, MongoDB, Tailwind CSS, Android Development, Swift, Firebase</li>
+                <li>Scientific: Computational Astrophysics, Astrodynamics, Orbital Mechanics, Parallel Computing & MPI, Simulations &
+                    Physics Modeling</li>
+                <li>Astrophotography: 10+ years of experience in astronomical image acquisition, telescopes, equatorial mounts,
+                    astrometric plate solving, and image processing methods</li>
+
+            </ul>
+        </div>
+
+
+        <div class="text-2xl font-semibold mt-10">Projects</div>
         
+        <div class="mt-2 text-gray-400">
+            <ul class="list-disc list-outside">
 
-        <div class="">
-            <div class="img-holder"><img src="CygnusAnnotated.jpeg" alt=""></div>
-            <h1>Annotated Version</h1>
+               
+             
+                <li class="text-gray-300 mt-2">RISC-V Basic SIMD Vector Processor <a href="https://github.com/astrogeekdk/RISC-V-Basic-SIMD" class="text-orange-300">[Github]</a></li>
+                <p>Created a basic SIMD vector processor atop a 5-stage RISC-V pipeline, implemented in Scala and Chisel. Designed
+                    an 8-lane fixed-length vector array with custom instructions (vload, vstore, vadd) to demonstrate parallel vector
+                    processing capabilities, enhancing computational efficiency.</p>
+
+                            
+                <li class="text-gray-300 mt-2">Ollama powered Local LLM Assistant <a href="https://github.com/astrogeekdk/Ollama-Local-Assistant" class="text-orange-300">[Github]</a></li>
+                <p>Developed a local AI assistant powered by Ollama, featuring offline conversational capabilities, OpenAI Whisper for speech recognition, native OS speech synthesis, and local LLMs for basic functionality.</p>
+
+
+                <li class="text-gray-300 mt-2">XRF Lunar Elemental Analysis (Chandrayaan-2 CLASS)</li>
+                <p>Analyzed X-ray fluorescence (XRF) lines from Chandrayaan-2 CLASS data to identify lunar elements and their
+                    abundances. Modeled spectra and computed elemental ratios (Mg/Si, Al/Si, Ca/Si) by mitigating angular and solar
+                    flux dependencies, mapping results onto lunar albedo for compositional insights.</p>
+    
+    
+
+                <li class="text-gray-300 mt-2">Stellargaze - Exoplanet Celestial Sphere Renderer <a href="https://github.com/astrogeekdk/stellargaze" class="text-orange-300">[Github]</a></li>
+                <p>Created a planetarium to model the celestial sphere as observed from exoplanets, accounting for parallax shifts in
+                    stellar positions. Converted geocentric stellar parameters [right ascension, declination, distance, apparent magnitude]
+                    into global 3D coordinates and absolute magnitudes, then reprojected the stars from exoplanet’s perspective using
+                    astrometric transformations.</p>
+
+
+                <li class="text-gray-300 mt-2">Orbital Rocket Launch Dynamics Model <a href="https://github.com/astrogeekdk/Rocket-Launch-Simulator" class="text-orange-300">[Github]</a></li>
+                <p>Developed an accurate 3D simulation of orbital rocket launch, with physics modeling, engine thrust vectoring, and
+                    control dynamics. Integrated realistic visualizations using a Milky Way star map, Earth textures, rocket 3D model, and
+                    particle systems for thrust. Simulated multi-phase flight including launch, slow coast/roll, stage separation, orbit
+                    insertion, boostback burn, and return-to-launch-site (RTLS) maneuvers.</p>
+
+            </ul>
         </div>
+
+        <div class="text-2xl font-semibold mt-10">Achievements</div>
+
+        <div class="mt-5 text-gray-400 text-sm">
+            <ul class="list-disc list-outside">
+
+                <li class="mt-2">NASA Space Apps Hackathon: 3rd Prize for the Exoplanet Night Sky Planetarium</li>
+                <li class="mt-2"> InterIIT Tech Meet 13.0: 5th Prize for Lunar XRF Analysis in ISRO Problem Statement</li>
+                <li class="mt-2"> International Asteroid Search Campaign (IASC): Our team discovered a provisional new asteroid named 2021 LK17
+                </li>
+
+
+            </ul>
+        </div>
+    
+    
+
         
-
-       
-
-  
-   
-      
-        
-
-     
-       </div>
-
-
-
-       <div class="border-t-1 border-orange-200 pt-10 text-white w-2/3 m-auto mt-10 font-bold">
-        Others
-        </div>
-
-        <div class="mt-5 m-auto w-2/3 text-white grid lg:grid-cols-3 grid-cols-1 gap-4 mb-10">
-
-
-
-        <div class="">
-            <div class="img-full"><img src="Comet.jpg" alt=""></div>
-            <h1>Comet C/2023 A3 Tsuchinshan–ATLAS</h1>
-        </div>
-
-       
-
-        <div class="">
-            <div class="img-holder"><img src="moondog.jpg" alt=""></div>
-            <h1>Moon Dog</h1>
-        </div>
-        
-
-       
-
 
     </div>
+
+
+
+    
+
 
 
   </body>
